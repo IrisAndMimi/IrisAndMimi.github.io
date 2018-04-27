@@ -1,5 +1,7 @@
 {
-//  "dir": "ltr",
+/*
+  "dir": "ltr",
+*/
   "lang": "ch",
   "name": "IrisAndMimi's page",
   "scope": "/",
@@ -7,7 +9,7 @@
   "start_url": "/",
   "short_name": "Iris & Mimi"",
   "theme_color": "transparent",
-//  "description": "",
+  "description": "",
   "orientation": "any",
   "background_color": "transparent",
   "related_applications": [],
