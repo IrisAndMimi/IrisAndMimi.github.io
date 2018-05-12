@@ -11,5 +11,5 @@ function output() {
 	var editArea = document.getElementById("edit_area");
 	sourceArea.innerHTML= editArea.innerHTML;
 	cars[cars.length] =editArea.innerHTML;
-	getElementById("now-string").innerHTML = cars;
+	document.getElementById("now-string").innerHTML = cars;
 }
