@@ -8,7 +8,8 @@ function myFunction() {
 	document.getElementById("rdm-btn").innerHTML = cars[x];
 }
 function output() {
-  var sourceArea = document.getElementById("source_code");
-  var editArea = document.getElementById("edit_area");
-  sourceArea.innerHTML= editArea.innerHTML;
+	var sourceArea = document.getElementById("source_code");
+	var editArea = document.getElementById("edit_area");
+	sourceArea.innerHTML= editArea.innerHTML;
+	cars[cars.length] =editArea.innerHTML;
 }
