@@ -4,7 +4,7 @@ document.write(cars);
 var a = cars.length;
 document.write(a);
 function myFunction() {
-	var x = Math.floor((Math.random() * (a-1)) );
+	var x = Math.floor((Math.random() * a) );
 	document.getElementById("demo").innerHTML = cars[x];
 }
 
