@@ -1,6 +1,5 @@
 var cars = ["Saab", "Volvo", "BMW","Mimi"];
 cars[cars.length] =("Oops");
-document.write(cars);
 var a = cars.length;
 document.write(a);
 function myFunction() {
@@ -12,5 +11,5 @@ function output() {
 	var editArea = document.getElementById("edit_area");
 	sourceArea.innerHTML= editArea.innerHTML;
 	cars[cars.length] =editArea.innerHTML;
-	document.write(cars);
+	getElementById("now-string").innerHTML = cars;
 }
