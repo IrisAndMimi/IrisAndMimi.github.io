@@ -16,6 +16,13 @@
 	width:device-width;
 	background:#97DD27;
 }
+.littleBtn{
+	width:20px;
+	height:20px;
+	border:2px #FFFFFF dashed;
+	display:inline;
+	border-radius:50%;
+}
 h1.result{
 	margin:auto;
 	color:#FFFFFF;
