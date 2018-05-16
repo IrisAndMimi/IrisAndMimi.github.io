@@ -6,8 +6,11 @@ function diceClick() {
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
 	}
 function chgBg() {
-	document.getElementById("container").class="bg-dirtaqua";
-	document.body.style.backgroundColor= "#00E0E0";
+	var btns = document.getElementById("btn2").id;
+	if (btns == btn2){
+		document.body.style.backgroundColor= "#00E0E0";	
+	}
+	
 	}
 function output() {
 	var sourceArea = document.getElementById("source_code");
