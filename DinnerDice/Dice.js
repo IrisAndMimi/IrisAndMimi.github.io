@@ -7,7 +7,7 @@ function diceClick() {
 	}
 function chgBg() {
 	document.getElementById("container").class="bg-dirtaqua";
-	$("body").toggleClass("bg-dirtaqua");
+	$("container").toggleClass("bg-dirtaqua");
 	}
 function output() {
 	var sourceArea = document.getElementById("source_code");
