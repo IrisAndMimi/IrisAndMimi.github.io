@@ -5,6 +5,10 @@
 		background:#B57EDC;
 		}
 .result{
-  color: #999999;
+  color:#FFFFFF;
   font-size: 100px;
+}
+#imgSty{
+	height:device-height;
+	width:device-width;
 }
