@@ -1,10 +1,10 @@
 #container{
 	height:device-height;
 	width:device-width;
-	margin-top:0px;
 	background:#B57EDC;
 }
 .result{
+	margin:auto;
 	color:#FFFFFF;
 	font-size: 100px;
 	width:device-width;
