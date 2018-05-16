@@ -4,12 +4,23 @@
 	width:device-width;
 	background:#B57EDC;
 }
-p.result{
+#background-lavender{
+	background:#B57EDC;
+}
+#background-dirtaqua{
+	background:#00E0E0;
+}
+#background-wasabi{
+	margin:auto;
+	height:device-height;
+	width:device-width;
+	background:#97DD27;
+}
+h1.result{
 	margin:auto;
 	color:#FFFFFF;
 	font-size: 100px;
 	width:device-width;
-	text-align:right;
 }
 #imgSty{
 	margin:auto;

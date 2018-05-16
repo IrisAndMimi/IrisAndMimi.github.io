@@ -1,8 +1,5 @@
 var fds = ["Saab", "Volvo", "BMW","Mimi"];
 var a = fds.length;
-$('#btn-start').addEventListener('click', function(){
-
-});
 function myFunction() {
 	var x = Math.floor((Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
