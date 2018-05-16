@@ -6,7 +6,7 @@ function diceClick() {
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
 	}
 function chgBg() {
-	document.getElementById("container").class="bg-dirtaqua";
+	document.getElementById("container").class.innerHTML="bg-dirtaqua";
 	$("container").toggleClass("bg-dirtaqua");
 	}
 function output() {
