@@ -5,8 +5,8 @@ function diceClick() {
 	var x = Math.floor((Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
 	}
-function chgBkgd() {
-	document.getElementById('container').class='bkgd-dirtaqua';
+function chgBg() {
+	document.getElementById("container").class="bg-dirtaqua";
 	}
 function output() {
 	var sourceArea = document.getElementById("source_code");
