@@ -4,12 +4,12 @@
 	background:#B57EDC;
 }
 .result{
-	margin:auto;
 	color:#FFFFFF;
 	font-size: 100px;
 	width:device-width;
 	text-align:center;
 }
 #imgSty{
+	margin:auto;
 	width:device-width;
 }
