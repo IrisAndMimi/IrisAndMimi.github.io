@@ -1,14 +1,14 @@
 #container{
-		height:device-height;
-		width:device-width;
-		margin-top:0px;
-		background:#B57EDC;
-		}
+	height:device-height;
+	width:device-width;
+	margin-top:0px;
+	background:#B57EDC;
+}
 .result{
-  color:#FFFFFF;
-  font-size: 100px;
+	color:#FFFFFF;
+	font-size: 100px;
+	width:device-width;
 }
 #imgSty{
-	height:device-height;
 	width:device-width;
 }
