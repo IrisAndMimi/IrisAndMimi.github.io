@@ -1,9 +1,11 @@
 #container{
+	margin:auto;
 	height:device-height;
 	width:device-width;
 	background:#B57EDC;
 }
 .result{
+	margin:auto;
 	color:#FFFFFF;
 	font-size: 100px;
 	width:device-width;
@@ -11,5 +13,6 @@
 }
 #imgSty{
 	margin:auto;
+	height:device-height;
 	width:device-width;
 }
