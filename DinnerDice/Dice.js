@@ -4,16 +4,19 @@ var bg=document.getElementById('container').value;
 function diceClick() {
 	var x = Math.floor((Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
-	}
+}
 function chgBgLvdr() {
 		document.body.style.backgroundColor= "#B57EDC";	
-	}
+}
 function chgBgDrtaq() {
 		document.body.style.backgroundColor= "#00E0E0";	
-	}
+}
 function chgBgWsab() {
 		document.body.style.backgroundColor= "#97DD27";	
-	}
+}
+function chgBgBlywd() {
+		document.body.style.backgroundColor= "#DEB887";	
+}
 	
 function output() {
 	var sourceArea = document.getElementById("source_code");
