@@ -7,7 +7,7 @@ function diceClick() {
 	}
 function chgBg() {
 	var btns = document.getElementById("btn2").id;
-	if (btns == btn2){
+	if (btns == "btn2"){
 		document.body.style.backgroundColor= "#00E0E0";	
 	}
 	
