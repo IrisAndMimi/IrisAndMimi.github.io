@@ -1,11 +1,12 @@
 var fds = ["Saab", "Volvo", "BMW","Mimi"];
 var a = fds.length;
+var bg=document.getElementById('container').value;
 function diceClick() {
 	var x = Math.floor((Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
 	}
 function chgBkgd() {
-	document.bgColor="#00E0E0";
+	document.getElementById('container').class='bkgd-dirtaqua';
 	}
 function output() {
 	var sourceArea = document.getElementById("source_code");

@@ -2,15 +2,14 @@
 	margin:auto;
 	height:device-height;
 	width:device-width;
+}
+.bkgd-lavender{
 	background:#B57EDC;
 }
-#bkgd-lavender{
-	background:#B57EDC;
-}
-#bkgd-dirtaqua{
+.bkgd-dirtaqua{
 	background:#00E0E0;
 }
-#bkgd-wasabi{
+.bkgd-wasabi{
 	margin:auto;
 	height:device-height;
 	width:device-width;
