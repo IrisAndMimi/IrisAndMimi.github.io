@@ -15,7 +15,6 @@ function chgBgWsab() {
 		document.body.style.backgroundColor= "#97DD27";	
 	}
 	
-	}
 function output() {
 	var sourceArea = document.getElementById("source_code");
 	var editArea = document.getElementById("edit_area");
