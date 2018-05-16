@@ -5,10 +5,14 @@ function diceClick() {
 	var x = Math.floor((Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
 	}
-function chgBg() {
-	var btns = document.getElementById("btn2").id;
-	if (btns == "btn2"){
+function chgBgLvdr() {
+		document.body.style.backgroundColor= "#B57EDC";	
+	}
+function chgBgDrtaq() {
 		document.body.style.backgroundColor= "#00E0E0";	
+	}
+function chgBgWsab() {
+		document.body.style.backgroundColor= "#97DD27";	
 	}
 	
 	}
