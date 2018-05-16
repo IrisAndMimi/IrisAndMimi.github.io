@@ -1,0 +1,11 @@
+#container{
+		height:device-height;
+		width:device-width;
+		margin-top:0px;
+		background:#B57EDC;
+		}
+#result{
+  margin: 10px 0;
+  color: #999999;
+  font-size: 100px;
+}
