@@ -1,6 +1,8 @@
 var fds = ["Saab", "Volvo", "BMW","Mimi"];
 var a = fds.length;
 function diceClick() {
+	$("img").fadeOut();
+	$("img").fadeIn();
 	var x = Math.floor( (Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
 }
