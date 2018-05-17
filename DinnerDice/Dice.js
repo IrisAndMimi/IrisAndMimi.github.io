@@ -8,7 +8,7 @@ function fdChsn() {
 	var us = document.getElementById("Us");
 	var ch=document.getElementById('Ch');
 	if(us.checked) {
-		document.getElementById("Dice-rdm").innerHTML = "us";
+		document.getElementById("Dice-rdm").innerHTML = a;
 	}
 }
 
