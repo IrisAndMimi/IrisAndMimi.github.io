@@ -3,6 +3,7 @@
 	height:device-height;
 	width:device-width;
 }
+/* 目前有4個背景配色 */
 .bg-lvdr{
 	background:#B57EDC;
 }
@@ -14,6 +15,14 @@
 }
 .bg-blywd{
 	background:#DEB887;
+}
+/* 目前有2種按鈕 */
+.sbmBtn{
+	width:20px;
+	height:20px;
+	border:2px #FFFFFF double;
+	border-radius:40%;
+	background:transparent;
 }
 .littleBtn{
 	width:20px;
