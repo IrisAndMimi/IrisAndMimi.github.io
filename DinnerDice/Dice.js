@@ -1,4 +1,4 @@
-var fds = ["Saab", "Volvo", "BMW","Mimi"];
+var fds = ["漢堡", "義大利麵", "披薩","牛排"];
 var a = fds.length;
 function diceClick() {
 	var x = Math.floor( (Math.random() * a) );
