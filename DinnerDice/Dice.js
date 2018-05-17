@@ -7,7 +7,7 @@ function diceClick() {
 function fdChsn() {
 	var us = document.getElementById("Us");
 	var ch=document.getElementById('Ch');
-	if(us.checked) {
+	if(document.getElementById("Us").checked) {
 		document.getElementById("Dice-rdm").innerHTML = "us";
 	}
 }
