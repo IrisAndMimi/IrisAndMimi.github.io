@@ -4,6 +4,14 @@ function diceClick() {
 	var x = Math.floor( (Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
 }
+function fdChsn() {
+	var us = document.getElementById("Us");
+	var ch=document.getElementById('Ch');
+	if(us.checked) {
+		document.getElementById("Dice-rdm").innerHTML = "us";
+	}
+}
+
 function chgBgLvdr() {
 		document.body.style.backgroundColor= "#B57EDC";	
 }
@@ -16,7 +24,7 @@ function chgBgWsab() {
 function chgBgBlywd() {
 		document.body.style.backgroundColor= "#DEB887";	
 }
-	
+
 function output() {
 	var sourceArea = document.getElementById("source_code");
 	var editArea = document.getElementById("edit_area");
