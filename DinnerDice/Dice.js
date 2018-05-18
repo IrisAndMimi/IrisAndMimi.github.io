@@ -12,7 +12,7 @@ function diceClick() {
 	var x = Math.floor( (Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
 	
-	if(loc == ?fd-sty=Us) {
+	if(loc == '?fd-sty=Us') {
 		document.write(loc);
 		alert('?fd-sty=Us');
 	}
