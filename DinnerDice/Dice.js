@@ -20,7 +20,7 @@ function diceClick() {
 	}
 	
 	var x = Math.floor( (Math.random() * a) );
-	document.getElementById("Dice-rdm").innerHTML = fds;
+	document.getElementById("Dice-rdm").innerHTML = fds[x];
 }
 
 function chgBgLvdr() {
