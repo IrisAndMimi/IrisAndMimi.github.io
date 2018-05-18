@@ -9,14 +9,14 @@ var a = fds.length;
 function fdChsn() {
 }
 function diceClick() {
-	var x = Math.floor( (Math.random() * a) );
-	document.getElementById("Dice-rdm").innerHTML = fds[x];
-	
 	if(loc == '?fd-sty=Us') {
 		document.write(loc);
 	}else{
 		alert('?fd-sty=Us');
 	}
+	
+	var x = Math.floor( (Math.random() * a) );
+	document.getElementById("Dice-rdm").innerHTML = 'finish';
 }
 
 function chgBgLvdr() {
