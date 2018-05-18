@@ -13,14 +13,14 @@ function diceClick() {
 	}else if(loc == '?fd-sty=Ch'){
 		var fds = chfds;
 	}else if(loc == '?fd-sty=Us&fd-sty=Ch'){
-		var fds = usfds+chfds;
+		var fds = usfds.concat(chfds);
 	}else{
 		document.write(loc);
 	}
 	
 	var a = fds.length;
 	var x = Math.floor( (Math.random() * a) );
-	document.getElementById("Dice-rdm").innerHTML = fds[x];
+	document.getElementById("Dice-rdm").innerHTML = fds;
 }
 
 function chgBgLvdr() {
