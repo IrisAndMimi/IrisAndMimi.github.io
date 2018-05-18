@@ -1,6 +1,6 @@
 var usfds = ["漢堡", "義大利麵", "披薩","牛排"];
 var chfds = ["火鍋", "陽春麵", "便當","三明治","自助餐","炸物"];
-var krfds = ["拌飯", "泡麵", "年糕","魚板"];
+var krfds = ["拌飯", "水冷麵", "年糕","魚板"];
 var jpfds = ["壽司", "生魚片", "烏龍麵","天婦羅","甜不辣","拉麵"];
 var swfds = ["冰棒", "蛋糕", "飲料","果凍","紅豆湯","沙拉","水果"];
 
@@ -12,9 +12,12 @@ function diceClick() {
 		var fds = usfds;
 	}else if(loc == '?fd-sty=Ch'){
 		var fds = chfds;
+	}else if(loc == '?fd-sty=Kr'){
+		var fds = krfds;
 	}else if(loc == '?fd-sty=Us&fd-sty=Ch'){
 		var fds = usfds.concat(chfds);
 	}else{
+		alert('請選擇偏好的食物風格!');
 		document.write(loc);
 	}
 	
