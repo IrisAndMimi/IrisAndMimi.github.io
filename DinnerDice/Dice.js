@@ -12,24 +12,42 @@ function diceClick() {
 		case '?fd-sty=Us':
 			var fds = usfds;
 			break;
+		case '?fd-sty=Ch':
+			var fds = chfds;
+			break;
+		case '?fd-sty=Kr':
+			var fds = krfds;
+			break;
+		case '?fd-sty=Jp':
+			var fds = jpfds;
+			break;
+		case '?fd-sty=Sw':
+			var fds = swfds;
+			break;
+		case '?fd-sty=Us&fd-sty=Ch':
+			var fds = usfds.concat(chfds);
+			break;
+		case '?fd-sty=Us&fd-sty=Kr':
+			var fds = usfds.concat(krfds);
+			break;
+		case '?fd-sty=Us&fd-sty=Jp':
+			var fds = usfds.concat(jpfds);
+			break;
+		case '?fd-sty=Us&fd-sty=Sw':
+			var fds = usfds.concat(swfds);
+			break;
+		case '?fd-sty=Ch&fd-sty=Kr':
+			var fds = chfds.concat(krfds);
+			break;
+		case '?fd-sty=Ch&fd-sty=Jp':
+			var fds = chfds.concat(jpsfds);
+			break;
+		
 		default :
 			alert('請選擇偏好的食物風格!');
 			break;
 	}
-	/*
-	if(loc == '?fd-sty=Us') {
-		var fds = usfds;
-	}else if(loc == '?fd-sty=Ch'){
-		var fds = chfds;
-	}else if(loc == '?fd-sty=Kr'){
-		var fds = krfds;
-	}else if(loc == '?fd-sty=Us&fd-sty=Ch'){
-		var fds = usfds.concat(chfds);
-	}else{
-		alert('請選擇偏好的食物風格!');
-		document.write(loc);
-	}
-	*/
+	
 	
 	var a = fds.length;
 	var x = Math.floor( (Math.random() * a) );
