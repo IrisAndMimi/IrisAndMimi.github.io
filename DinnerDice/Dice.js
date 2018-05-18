@@ -10,9 +10,9 @@ function fdChsn() {
 }
 function diceClick() {
 	if(loc == '?fd-sty=Us') {
-		document.write(loc);
-	}else{
 		alert('?fd-sty=Us');
+	}else{
+		document.write(loc);
 	}
 	
 	var x = Math.floor( (Math.random() * a) );
