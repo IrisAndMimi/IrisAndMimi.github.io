@@ -4,6 +4,7 @@ var krfds = ["拌飯", "泡麵", "年糕","魚板"];
 var jpfds = ["壽司", "生魚片", "烏龍麵","天婦羅","甜不辣","拉麵"];
 var swfds = ["冰棒", "蛋糕", "飲料","果凍","紅豆湯","沙拉","水果"];
 
+var loc = location.search;
 var a = fds.length;
 function fdChsn() {
 	var us = document.getElementById("Us");
@@ -15,6 +16,7 @@ function fdChsn() {
 	}
 }
 function diceClick() {
+	document.write(loc);
 	var x = Math.floor( (Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
 }
