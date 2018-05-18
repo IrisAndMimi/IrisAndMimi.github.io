@@ -10,13 +10,17 @@ function fdChsn() {
 }
 function diceClick() {
 	if(loc == '?fd-sty=Us') {
-		alert('?fd-sty=Us');
+		var fds = usfds;
+	}else if(loc == '?fd-sty=Ch'){
+		var fds = chfds;
+	}else if(loc == '?fd-sty=Us&fd-sty=Ch'){
+		var fds = usfds+chfds;
 	}else{
 		document.write(loc);
 	}
 	
 	var x = Math.floor( (Math.random() * a) );
-	document.getElementById("Dice-rdm").innerHTML = 'finish';
+	document.getElementById("Dice-rdm").innerHTML = fds;
 }
 
 function chgBgLvdr() {
