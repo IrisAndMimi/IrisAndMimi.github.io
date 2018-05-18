@@ -8,6 +8,15 @@ var loc = location.search;
 function fdChsn() {
 }
 function diceClick() {
+	switch (loc){
+		case '?fd-sty=Us':
+			var fds = usfds;
+			break;
+		default :
+			alert('請選擇偏好的食物風格!');
+			break;
+	}
+	/*
 	if(loc == '?fd-sty=Us') {
 		var fds = usfds;
 	}else if(loc == '?fd-sty=Ch'){
@@ -20,6 +29,7 @@ function diceClick() {
 		alert('請選擇偏好的食物風格!');
 		document.write(loc);
 	}
+	*/
 	
 	var a = fds.length;
 	var x = Math.floor( (Math.random() * a) );
