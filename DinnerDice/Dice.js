@@ -14,6 +14,7 @@ function diceClick() {
 	
 	if(loc == '?fd-sty=Us') {
 		document.write(loc);
+	}else{
 		alert('?fd-sty=Us');
 	}
 }
