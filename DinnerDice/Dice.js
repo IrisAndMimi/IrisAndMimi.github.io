@@ -9,13 +9,11 @@ var a = fds.length;
 function fdChsn() {
 }
 function diceClick() {
-	document.write(loc);
 	var x = Math.floor( (Math.random() * a) );
 	document.getElementById("Dice-rdm").innerHTML = fds[x];
+	
 	if(loc == "?fd-sty=Us") {
 		alert('?fd-sty=Us');
-	}else if (ch.checked){
-		var fds = chfds;
 	}
 }
 
