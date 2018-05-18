@@ -7,10 +7,8 @@ var swfds = ["冰棒", "蛋糕", "飲料","果凍","紅豆湯","沙拉","水果"
 var loc = location.search;
 var a = fds.length;
 function fdChsn() {
-	var us = document.getElementById("Us");
-	var ch=document.getElementById('Ch');
-	if(us.checked) {
-		var fds = usfds;
+	if(loc == "?fd-sty=Us") {
+		alert('?fd-sty=Us');
 	}else if (ch.checked){
 		var fds = chfds;
 	}
