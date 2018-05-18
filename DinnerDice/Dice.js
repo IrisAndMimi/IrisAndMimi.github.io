@@ -5,9 +5,18 @@ var jpfds = ["壽司", "生魚片", "烏龍麵","天婦羅","甜不辣","拉麵"
 var swfds = ["冰棒", "蛋糕", "飲料","果凍","紅豆湯","沙拉","水果"];
 
 var loc = location.search;
+var usckd = str.search(/Us/);
+var chckd = str.search(/Ch/);
+var krckd = str.search(/Kr/);
+var jpckd = str.search(/Jp/);
+var swckd = str.search(/Sw/);
 function fdChsn() {
 }
 function diceClick() {
+	switch (loc){
+		
+	}	
+	/*
 	switch (loc){
 		case '?fd-sty=Us':
 			var fds = usfds;
@@ -47,7 +56,7 @@ function diceClick() {
 			alert('請選擇偏好的食物風格!');
 			break;
 	}
-	
+	*/
 	
 	var a = fds.length;
 	var x = Math.floor( (Math.random() * a) );
