@@ -2,17 +2,20 @@ var usfds = ["漢堡", "義大利麵", "披薩","牛排"];
 var chfds = ["火鍋", "陽春麵", "便當","三明治","自助餐","炸物"];
 var krfds = ["拌飯", "水冷麵", "年糕","魚板"];
 var jpfds = ["壽司", "生魚片", "烏龍麵","天婦羅","甜不辣","拉麵"];
-var swfds = ["冰棒", "蛋糕", "飲料","果凍","紅豆湯","沙拉","水果"];
+var sw = ["冰棒", "蛋糕", "飲料","果凍","紅豆湯","沙拉","水果"];
 
 var loc = location.search;
 var usckd = str.search(/Us/);
 var chckd = str.search(/Ch/);
 var krckd = str.search(/Kr/);
 var jpckd = str.search(/Jp/);
+
 var swckd = str.search(/Sw/);
 function fdChsn() {
+	alert('菜單已置入<br>請點擊骰子');
 }
 function diceClick() {
+	
 	switch (loc){
 		
 	}	
@@ -57,10 +60,13 @@ function diceClick() {
 			break;
 	}
 	*/
-	
-	var a = fds.length;
-	var x = Math.floor( (Math.random() * a) );
-	document.getElementById("Dice-rdm").innerHTML = fds;
+	var x = Math.floor( ( Math.random()*(fds.length) ) );
+	if (swckd==-1){
+		document.getElementById("Dice-rdm").innerHTML = fds;
+	}else{
+		var y = Math.floor( ( Math.random()*(sw.length) ) );
+		document.getElementById("Dice-rdm").innerHTML = fds+"+"+sw;
+	}
 }
 
 function chgBgLvdr() {
