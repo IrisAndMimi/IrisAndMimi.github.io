@@ -111,4 +111,4 @@ function washTheme() {
 	}else if ( (second % 2) == 1){
 		document.body.style.backgroundColor= "#00E0E0";
 	}
-});
+}
