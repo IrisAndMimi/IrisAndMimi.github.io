@@ -14,16 +14,16 @@ var swckd = loc.search(/Sw/);
 function totfun() {
 	var tot = 0;
 	if (usckd>0){
-		t0t=tot+1;
+		tot=tot+1;
 	}else{}
 	if (chckd>0){
-		t0t=tot+10;
+		tot=tot+10;
 	}else{}
 	if (krckd>0){
-		t0t=tot+100;
+		tot=tot+100;
 	}else{}
 	if (jpckd>0){
-		t0t=tot+1000;
+		tot=tot+1000;
 	}else{}
 	
 }
