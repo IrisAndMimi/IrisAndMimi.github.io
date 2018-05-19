@@ -104,13 +104,11 @@ function output() {
 	fds[fds.length] =editArea.innerHTML;
 	document.getElementById("now-string").innerHTML = fds;
 }
-$(document).ready( function()
-{
-    var second = new Date().getSeconds();
-    if ( (second % 2) == 0){
+function washTheme() {
+	var second = new Date().getSeconds();
+	if ( (second % 2) == 0){
 		document.body.style.backgroundColor= "#97DD27";
 	}else if ( (second % 2) == 1){
 		document.body.style.backgroundColor= "#00E0E0";
 	}
-    
 });
