@@ -12,6 +12,7 @@ var jpckd = str.search(/Jp/);
 
 var swckd = str.search(/Sw/);
 var tot = 0;
+/*
 if (usckd>0){
 	t0t=tot+1;
 }else{}
@@ -24,6 +25,7 @@ if (krckd>0){
 if (jpckd>0){
 	t0t=tot+1000;
 }else{}
+*/
 function fdChsn() {
 	alert('菜單已更新');
 }
