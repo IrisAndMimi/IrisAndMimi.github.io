@@ -5,12 +5,12 @@ var jpfds = ["壽司", "生魚片", "烏龍麵","天婦羅","甜不辣","拉麵"
 var sw = ["冰棒", "蛋糕", "飲料","果凍","紅豆湯","沙拉","水果"];
 
 var loc = location.search;
-var usckd = str.search(/Us/);
-var chckd = str.search(/Ch/);
-var krckd = str.search(/Kr/);
-var jpckd = str.search(/Jp/);
+var usckd = loc.search(/Us/);
+var chckd = loc.search(/Ch/);
+var krckd = loc.search(/Kr/);
+var jpckd = loc.search(/Jp/);
 
-var swckd = str.search(/Sw/);
+var swckd = loc.search(/Sw/);
 var tot = 0;
 /*
 if (usckd>0){
