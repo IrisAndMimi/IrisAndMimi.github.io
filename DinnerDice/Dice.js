@@ -90,7 +90,6 @@ function diceClick() {
 			break;
 	}
 	*/
-	var fds = "finish";
 	var x = Math.floor( ( Math.random()*(fds.length) ) );
 	if (swckd==-1){
 		document.getElementById("Dice-rdm").innerHTML = fds;
