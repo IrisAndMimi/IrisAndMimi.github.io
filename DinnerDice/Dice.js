@@ -1,15 +1,17 @@
+/*		內建菜單	*/
 var usfds = ["漢堡", "義大利麵", "披薩","牛排"];
 var chfds = ["火鍋", "陽春麵", "便當","三明治","自助餐","炸物"];
 var krfds = ["拌飯", "水冷麵", "年糕","魚板"];
 var jpfds = ["壽司", "生魚片", "烏龍麵","天婦羅","甜不辣","拉麵"];
 var sw = ["冰棒", "蛋糕", "飲料","果凍","紅豆湯","沙拉","水果"];
-
+var fds =[];
+/*		有4種食物偏好 可多選		*/
 var loc = location.search;
 var usckd = loc.search(/Us/);
 var chckd = loc.search(/Ch/);
 var krckd = loc.search(/Kr/);
 var jpckd = loc.search(/Jp/);
-
+/*		要加點心不?	*/
 var swckd = loc.search(/Sw/);
 
 var tot = 0;
@@ -31,9 +33,22 @@ function fdChsn() {
 }
 function diceClick() {
 	alert(tot);
-	switch (loc){
-		
-	}	
+	switch (tot){
+	}
+	
+	if (usckd>0){
+		fds=fds.concat(usfds);
+	}else{}
+	if (chckd>0){
+		tot=tot+10;
+	}else{}
+	if (krckd>0){
+		tot=tot+100;
+	}else{}
+	if (jpckd>0){
+		tot=tot+1000;
+	}else{}
+
 	/*
 	switch (loc){
 		case '?fd-sty=Us':
