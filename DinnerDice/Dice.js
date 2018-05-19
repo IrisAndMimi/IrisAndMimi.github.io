@@ -44,13 +44,19 @@ if (jpckd>0){
 function fdChsn() {
 }
 function diceClick() {
-	var x = Math.floor( ( Math.random()*(fds.length) ) );
-	if (swckd==-1){
-		document.getElementById("Dice-rdm").innerHTML = fds[x];
+	if (fds.length==0){
+		alert('請選擇偏好的食物風格');
 	}else{
-		var y = Math.floor( ( Math.random()*(sw.length) ) );
-		document.getElementById("Dice-rdm").innerHTML = fds[x]+"+"+sw[y];
+		var x = Math.floor( ( Math.random()*(fds.length) ) );
+		if (swckd==-1){
+			document.getElementById("Dice-rdm").innerHTML = fds[x];
+		}else{
+			var y = Math.floor( ( Math.random()*(sw.length) ) );
+			document.getElementById("Dice-rdm").innerHTML = fds[x]+"+"+sw[y];
+		}
+		
 	}
+	
 }
 /*		4個換背景按鈕	*/
 function chgBgLvdr() {
