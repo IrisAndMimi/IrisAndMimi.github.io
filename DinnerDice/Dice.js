@@ -5,23 +5,29 @@ var krfds = ["拌飯", "水冷麵", "年糕","魚板"];
 var jpfds = ["壽司", "生魚片", "烏龍麵","天婦羅","甜不辣","拉麵"];
 var sw = ["冰棒", "蛋糕", "飲料","果凍","紅豆湯","沙拉","水果"];
 var fds =[];
+
+var usckd = -1;
+var chckd = -1;
+var krckd = -1;
+var jpckd = -1;
+
 /*		有4種食物偏好 可多選		*/
 var loc = location.search;
-var usckd = loc.search(/Us/);
-var chckd = loc.search(/Ch/);
-var krckd = loc.search(/Kr/);
-var jpckd = loc.search(/Jp/);
+usckd = loc.search(/Us/);
+chckd = loc.search(/Ch/);
+krckd = loc.search(/Kr/);
+jpckd = loc.search(/Jp/);
 /*		要加點心不?	*/
 var swckd = loc.search(/Sw/);
-/*
+
 function menuChecker() {
-	if ( (usckd+chckd+krckd+jpckd)==-4 || loc ==none){
-		alert('請選擇主食!');
+	if ( (usckd+chckd+krckd+jpckd)==-4){
+		alert('請選擇主食');
 	}else{
 		alert('菜單已更新');	
 	}
 }
-*/
+
 function fdChsn() {
 }
 function diceClick() {
