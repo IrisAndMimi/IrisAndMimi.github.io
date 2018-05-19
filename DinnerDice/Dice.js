@@ -40,13 +40,13 @@ function diceClick() {
 		fds=fds.concat(usfds);
 	}else{}
 	if (chckd>0){
-		tot=tot+10;
+		fds=fds.concat(chfds);
 	}else{}
 	if (krckd>0){
-		tot=tot+100;
+		fds=fds.concat(krfds);
 	}else{}
 	if (jpckd>0){
-		tot=tot+1000;
+		fds=fds.concat(jpfds);
 	}else{}
 
 	/*
