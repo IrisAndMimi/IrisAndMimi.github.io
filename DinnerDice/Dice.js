@@ -11,19 +11,22 @@ var krckd = loc.search(/Kr/);
 var jpckd = loc.search(/Jp/);
 
 var swckd = loc.search(/Sw/);
-var tot = 0;
-if (usckd>0){
-	t0t=tot+1;
-}else{}
-if (chckd>0){
-	t0t=tot+10;
-}else{}
-if (krckd>0){
-	t0t=tot+100;
-}else{}
-if (jpckd>0){
-	t0t=tot+1000;
-}else{}
+function totfun() {
+	var tot = 0;
+	if (usckd>0){
+		t0t=tot+1;
+	}else{}
+	if (chckd>0){
+		t0t=tot+10;
+	}else{}
+	if (krckd>0){
+		t0t=tot+100;
+	}else{}
+	if (jpckd>0){
+		t0t=tot+1000;
+	}else{}
+	
+}
 
 function fdChsn() {
 	alert('菜單已更新');
