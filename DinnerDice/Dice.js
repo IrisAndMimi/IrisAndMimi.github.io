@@ -11,11 +11,24 @@ var krckd = str.search(/Kr/);
 var jpckd = str.search(/Jp/);
 
 var swckd = str.search(/Sw/);
+var tot = 0;
+if (usckd>0){
+	t0t=tot+1;
+}else{}
+if (chckd>0){
+	t0t=tot+10;
+}else{}
+if (krckd>0){
+	t0t=tot+100;
+}else{}
+if (jpckd>0){
+	t0t=tot+1000;
+}else{}
 function fdChsn() {
-	alert('菜單已置入\n請點擊骰子');
+	alert('菜單已更新');
 }
 function diceClick() {
-	
+	alert(tot);
 	switch (loc){
 		
 	}	
@@ -60,6 +73,7 @@ function diceClick() {
 			break;
 	}
 	*/
+	var fds = "finish";
 	var x = Math.floor( ( Math.random()*(fds.length) ) );
 	if (swckd==-1){
 		document.getElementById("Dice-rdm").innerHTML = fds;
