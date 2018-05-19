@@ -30,7 +30,7 @@ function fdChsn() {
 	alert('菜單已更新');
 }
 function diceClick() {
-	alert(swckd);
+	alert(tot);
 	switch (loc){
 		
 	}	
