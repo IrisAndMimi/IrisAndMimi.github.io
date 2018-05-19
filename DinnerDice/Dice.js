@@ -12,7 +12,7 @@ var jpckd = str.search(/Jp/);
 
 var swckd = str.search(/Sw/);
 function fdChsn() {
-	alert('菜單已置入<br>請點擊骰子');
+	alert('菜單已置入\n請點擊骰子');
 }
 function diceClick() {
 	
