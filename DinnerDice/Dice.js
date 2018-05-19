@@ -27,20 +27,20 @@ function menuChecker() {
 		alert('菜單已更新');	
 	}
 }
-function menuGenerate() {
-	if (usckd>0){
-		fds=fds.concat(usfds);
-	}else{}
-	if (chckd>0){
-		fds=fds.concat(chfds);
-	}else{}
-	if (krckd>0){
-		fds=fds.concat(krfds);
-	}else{}
-	if (jpckd>0){
-		fds=fds.concat(jpfds);
-	}else{}
-}
+
+if (usckd>0){
+	fds=fds.concat(usfds);
+}else{}
+if (chckd>0){
+	fds=fds.concat(chfds);
+}else{}
+if (krckd>0){
+	fds=fds.concat(krfds);
+}else{}
+if (jpckd>0){
+	fds=fds.concat(jpfds);
+}else{}
+
 function fdChsn() {
 }
 function diceClick() {
