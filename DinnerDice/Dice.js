@@ -22,15 +22,12 @@ var swckd = loc.search(/Sw/);
 
 function menuChecker() {
 	if ( (usckd+chckd+krckd+jpckd)==-4){
-		alert('請選擇主食');
+		alert('請選擇偏好的食物風格');
 	}else{
 		alert('菜單已更新');	
 	}
 }
-
-function fdChsn() {
-}
-function diceClick() {
+function menuGenerate() {
 	if (usckd>0){
 		fds=fds.concat(usfds);
 	}else{}
@@ -43,48 +40,10 @@ function diceClick() {
 	if (jpckd>0){
 		fds=fds.concat(jpfds);
 	}else{}
-
-	/*
-	switch (loc){
-		case '?fd-sty=Us':
-			var fds = usfds;
-			break;
-		case '?fd-sty=Ch':
-			var fds = chfds;
-			break;
-		case '?fd-sty=Kr':
-			var fds = krfds;
-			break;
-		case '?fd-sty=Jp':
-			var fds = jpfds;
-			break;
-		case '?fd-sty=Sw':
-			var fds = swfds;
-			break;
-		case '?fd-sty=Us&fd-sty=Ch':
-			var fds = usfds.concat(chfds);
-			break;
-		case '?fd-sty=Us&fd-sty=Kr':
-			var fds = usfds.concat(krfds);
-			break;
-		case '?fd-sty=Us&fd-sty=Jp':
-			var fds = usfds.concat(jpfds);
-			break;
-		case '?fd-sty=Us&fd-sty=Sw':
-			var fds = usfds.concat(swfds);
-			break;
-		case '?fd-sty=Ch&fd-sty=Kr':
-			var fds = chfds.concat(krfds);
-			break;
-		case '?fd-sty=Ch&fd-sty=Jp':
-			var fds = chfds.concat(jpsfds);
-			break;
-		
-		default :
-			alert('請選擇偏好的食物風格!');
-			break;
-	}
-	*/
+}
+function fdChsn() {
+}
+function diceClick() {
 	var x = Math.floor( ( Math.random()*(fds.length) ) );
 	if (swckd==-1){
 		document.getElementById("Dice-rdm").innerHTML = fds[x];
@@ -93,7 +52,7 @@ function diceClick() {
 		document.getElementById("Dice-rdm").innerHTML = fds[x]+"+"+sw[y];
 	}
 }
-
+/*		4個換背景按鈕	*/
 function chgBgLvdr() {
 		document.body.style.backgroundColor= "#B57EDC";	
 }
