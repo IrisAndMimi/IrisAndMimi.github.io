@@ -11,9 +11,7 @@ var krckd = loc.search(/Kr/);
 var jpckd = loc.search(/Jp/);
 
 var swckd = loc.search(/Sw/);
-function totfun() {
-	
-}
+
 var tot = 0;
 if (usckd>0){
 	tot=tot+1;
