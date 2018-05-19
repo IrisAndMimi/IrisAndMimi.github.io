@@ -13,9 +13,14 @@ var krckd = loc.search(/Kr/);
 var jpckd = loc.search(/Jp/);
 /*		要加點心不?	*/
 var swckd = loc.search(/Sw/);
-	
+function menuChecker() {
+	if ( (usckd+chckd+krckd+jpckd)==-4 ){
+		alert('請選擇主食!');
+	}else{
+		alert('菜單已更新');	
+	}
+}
 function fdChsn() {
-	alert('菜單已更新');
 }
 function diceClick() {
 	if (usckd>0){
