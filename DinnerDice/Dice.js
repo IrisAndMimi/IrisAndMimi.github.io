@@ -13,29 +13,11 @@ var krckd = loc.search(/Kr/);
 var jpckd = loc.search(/Jp/);
 /*		要加點心不?	*/
 var swckd = loc.search(/Sw/);
-
-var tot = 0;
-if (usckd>0){
-	tot=tot+1;
-}else{}
-if (chckd>0){
-	tot=tot+10;
-}else{}
-if (krckd>0){
-	tot=tot+100;
-}else{}
-if (jpckd>0){
-	tot=tot+1000;
-}else{}
 	
 function fdChsn() {
 	alert('菜單已更新');
 }
 function diceClick() {
-	alert(tot);
-	switch (tot){
-	}
-	
 	if (usckd>0){
 		fds=fds.concat(usfds);
 	}else{}
@@ -92,10 +74,10 @@ function diceClick() {
 	*/
 	var x = Math.floor( ( Math.random()*(fds.length) ) );
 	if (swckd==-1){
-		document.getElementById("Dice-rdm").innerHTML = fds;
+		document.getElementById("Dice-rdm").innerHTML = fds[x];
 	}else{
 		var y = Math.floor( ( Math.random()*(sw.length) ) );
-		document.getElementById("Dice-rdm").innerHTML = fds+"+"+sw;
+		document.getElementById("Dice-rdm").innerHTML = fds[x]+"+"+sw[y];
 	}
 }
 
