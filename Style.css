@@ -1,0 +1,21 @@
+
+	h1{
+  	color:white;
+	font-family: 'Cabin Sketch', cursive;
+	font-size:50px;
+	line-height: 10px;
+	}
+	h2{
+  	color:black;
+	font-family: 'Pacifico', cursive;
+	line-height: 30px;
+	font-size:22px;
+	}
+	p.mur{
+	text-align:right;
+	}
+	 #container{
+	height:1000px;
+	margin-top:0px;
+	background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	}
