@@ -14,7 +14,7 @@ h2{
 p.mur{
 	text-align:right;
 }
- #container{
+ body.bg{
 	height:1000px;
 	margin-top:0px;
 	background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
