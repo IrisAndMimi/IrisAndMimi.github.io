@@ -24,6 +24,8 @@
 	border-radius:40%;
 	background:transparent;
 	font-family:'微軟正黑體';
+	font-weight: bold;
+	font-size:30px;
 }
 .littleBtn{
 	width:20px;
