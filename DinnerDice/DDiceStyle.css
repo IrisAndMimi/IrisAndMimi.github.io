@@ -18,14 +18,14 @@
 }
 /* 目前有2種按鈕 */
 .sbmBtn{
-	width:55px;
+	width:60px;
 	height:35px;
 	border:3px #FFFFFF double;
 	border-radius:40%;
 	background:transparent;
 	font-family:'微軟正黑體';
-	font-weight: bold;
-	font-size:25px;
+	font-weight: 550;
+	font-size:20px;
 }
 .littleBtn{
 	width:20px;
