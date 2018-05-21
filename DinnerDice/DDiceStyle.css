@@ -19,7 +19,7 @@
 /* 目前有2種按鈕 */
 .sbmBtn{
 	width:50px;
-	height:25px;
+	height:30px;
 	border:3px #FFFFFF double;
 	border-radius:40%;
 	background:transparent;
