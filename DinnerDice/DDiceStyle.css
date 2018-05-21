@@ -20,11 +20,8 @@
 .sbmBtn{
 	width:50px;
 	height:30px;
-	text-align:center;
-	line-height:30px;
 	border:3px #FFFFFF double;
 	border-radius:40%;
-	padding:auto;
 	background:transparent;
 }
 .littleBtn{
