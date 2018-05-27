@@ -39,10 +39,11 @@ p.mur{
 }
 .picbox{
 	width:500px;
-	height:100px;
+	height:250px;
 	margin:0px auto;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
+	background-position:top;
 }
 .picwin{
 	background-image:url(/images/abyssky.png);
