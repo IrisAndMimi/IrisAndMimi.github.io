@@ -43,5 +43,5 @@ p.mur{
 	background-repeat:no-repeat;
 }
 .picwin{
-	background-image:src(/images/abyssky.png);
+	background-image:url(/images/abyssky.png);
 }
