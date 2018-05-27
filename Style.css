@@ -43,7 +43,7 @@ p.mur{
 	margin:0px auto;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	background-position:bottom;
+	background-position:center;
 }
 .picwin{
 	background-image:url(/images/abyssky.png);
