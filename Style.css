@@ -26,6 +26,9 @@ p.mur{
 	line-height: 10px;
 	line-height: 0px;
 }
+.canedit{
+	color:rgba(255,255,255,0.7);
+}
 .blight{
 	text-shadow:0px 0px 15px #00FFFF,0px 0px 50px #00E0E0,0px 0px 75px #1F2AF4;
 	color:white;
