@@ -38,8 +38,8 @@ p.mur{
 	padding-right:15%;
 }
 .picbox{
-	width:50%;
-	height:20%;
+	width:50vw;
+	height:20vh;
 	margin:0px auto;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
