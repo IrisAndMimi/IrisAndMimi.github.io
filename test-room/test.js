@@ -1,7 +1,7 @@
 var cars = ["Saab", "Volvo", "BMW","Mimi"];
 cars[cars.length] =("Oops");
 var a = cars.length;
-document.write(a);
+document.write('<p class="esteg">當前字串長度為:'+a+'</p>');
 function myFunction() {
 	var x = Math.floor((Math.random() * a) );
 	document.getElementById("rdm-btn").innerHTML = cars[x];
