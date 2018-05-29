@@ -4,7 +4,7 @@ var a = cars.length;
 document.write('<p class="esteg">當前字串長度為:'+a+'</p>');
 function myFunction() {
 	var x = Math.floor((Math.random() * a) );
-	document.getElementById("rdm-rslt").innerHTML = '<p>產生結果=	</p>'+cars[x];
+	document.getElementById("rdm-rslt").innerHTML = '產生結果:	'+cars[x];
 }
 function output() {
 	var sourceArea = document.getElementById("source_code");
