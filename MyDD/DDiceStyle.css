@@ -43,6 +43,6 @@ h1.result{
 }
 #imgSty{
 	margin:auto;
-	height:50vh;
-	width:device-width;
+	width:100vw;
+	height:auto;
 }
