@@ -44,7 +44,7 @@ p.mur{
 	padding-right:15%;
 }
 .picbox{
-	width:50vw;
+	width:55vw;
 	height:250px;
 	margin:0px auto;
 	background-repeat:no-repeat;
@@ -53,6 +53,6 @@ p.mur{
 }
 .picwin{
 	background-image:url(/images/abyssky.png);
-	background-size:50vw;
+	background-size:55vw;
 	background-position:top;
 }
