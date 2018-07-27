@@ -28,5 +28,5 @@ if(window.DeviceOrientationEvent) {
 
   }, false);
 }else{
-  document.querySelector('span').innerHTML = '你的瀏覽器不支援呦OAQ';
+  document.querySelector('p').innerHTML = '你的瀏覽器不支援呦OAQ';
 }
