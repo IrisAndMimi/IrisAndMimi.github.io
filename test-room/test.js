@@ -28,5 +28,5 @@ if(window.DeviceOrientationEvent) {
 
   }, false);
 }else{
-  document.querySelector('#gyro').innerHTML = '你的瀏覽器不支援呦OAQ';
+  document.getElementById("gyro").innerHTML = '你的瀏覽器不支援呦OAQ';
 }
