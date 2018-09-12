@@ -13,6 +13,10 @@ function output() {
 	cars[cars.length] =editArea.innerHTML;
 	document.getElementById("now-string").innerHTML = cars;
 }
+function printmsg()
+{
+alert("人生好難");
+}
 if(window.DeviceOrientationEvent) {
   window.addEventListener('deviceorientation', function(event) {
     var a = document.getElementById('alpha'),
