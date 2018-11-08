@@ -1,7 +1,7 @@
 (function($) {
     $.moreText = { 
         'version': '1.2',
-        'server': 'http://more.handlino.com'
+        'server': 'https://more.handlino.com'
     };
 
     /**
